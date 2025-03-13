@@ -18,6 +18,14 @@ class persona:
 def main():
     p1 = persona("Samyr", "Archila", 15)
     p1.MostrarPersona()
+    p2 = persona("David", "Archila", 2)
+    p2.MostrarPersona()
+    p1.Edad = 20
+    p1.MostrarPersona()
+    p1 = p2
+    p1.MostrarPersona()
+    p2.MostrarPersona()
+
 
 if __name__ == "__main__":
     main()
